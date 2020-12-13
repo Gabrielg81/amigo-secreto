@@ -18,7 +18,7 @@ export default function Sort ({hasDrew}) {
   const handleSort = async () => {
     const { NEXT_PUBLIC_API_URL } = process.env
     
-    const { status } = await fetch(`${NEXT_PUBLIC_API_URL}/secrets/${id}/draw`, {
+    const { status } = await fetch(`${NEXT_PUBLIC_API_URL}/secret/${id}/draw`, {
       method: 'PUT',
       headers: new Headers({
         'admin-key': adminKey

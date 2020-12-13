@@ -39,7 +39,7 @@ export default function Participants ({ showButton, participants, setParticipant
 
   const deleteAPIParticipant = async (participantId) => {
     const { NEXT_PUBLIC_API_URL } = process.env
-    return await fetch(`${NEXT_PUBLIC_API_URL}/secrets/${id}/participants/${participantId}`, {
+    return await fetch(`${NEXT_PUBLIC_API_URL}/secret/${id}/participants/${participantId}`, {
       method: 'DELETE',
       headers: new Headers({
         'admin-key': adminKey
@@ -60,9 +60,9 @@ export default function Participants ({ showButton, participants, setParticipant
           participants.length === 0 && <p>Nenhum participante cadastrado ainda.</p>
         }
         {
-          participants.map(({name, email, externalId}, key) => {
+          participants.map(({name, email, externalId}) => { //participants.map(({name, email, externalId}, key) => {
             return <Participant 
-              key={`participant-${key}`}
+              key={`participant-${externalId}`}
               name={name}
               email={email}
               showButton={showButton} 

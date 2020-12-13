@@ -1,3 +1,10 @@
 # package directories
-dev-secret/
+node_modules
+jspm_packages
+dev-secret
+.next
 
+# Serverless directories
+.serverless
+
+*.yml

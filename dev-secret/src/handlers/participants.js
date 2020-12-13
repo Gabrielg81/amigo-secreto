@@ -33,6 +33,10 @@ module.exports.create = async (event, context) => {
         }
         return {
             statusCode: 201,
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Credentials': true,
+            },
             body: JSON.stringify({
                 success: true,
                 id: externalId,
@@ -43,6 +47,10 @@ module.exports.create = async (event, context) => {
         console.log(error)
         return {
             statusCode: 500,
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Credentials': true,
+            },
             body: JSON.stringify({
                 success: false,
             }),
@@ -78,12 +86,20 @@ module.exports.delete = async (event, context) => {
 
         return {
             statusCode: 204,
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Credentials': true,
+            },
         }
 
     } catch (error) {
         console.log(error)
         return {
             statusCode: 500,
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Credentials': true,
+            },
             body: JSON.stringify({
                 success: false,
             }),

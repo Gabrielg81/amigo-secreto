@@ -32,7 +32,7 @@ export default function HomePageHeader () {
   const handleSubmit = async ({name, email}) => {
     const { NEXT_PUBLIC_API_URL } = process.env
 
-    const data = await fetch(`${NEXT_PUBLIC_API_URL}/secrets`, {
+    const data = await fetch(`${NEXT_PUBLIC_API_URL}/secret`, {
       method: 'POST',
       body: JSON.stringify({
         name,
@@ -42,9 +42,9 @@ export default function HomePageHeader () {
     handleResponse(await data.json())
   }
 
-  const handleResponse = (response) => {
-    if (response.success) {
-      router.push(`/secret/${response.id}?adminKey=${response.adminKey}`)
+  const handleResponse = ({success, id, adminKey}) => {
+    if (success) {
+      router.push(`/secret/${id}?adminKey=${adminKey}`)
     }
   }
 

@@ -48,7 +48,7 @@ export async function getServerSideProps(context) {
 async function getSecretsById ({id, adminKey}) {
   const { NEXT_PUBLIC_API_URL } = process.env
 
-  const res = await fetch(`${NEXT_PUBLIC_API_URL}/secrets/${id}`, {
+  const res = await fetch(`${NEXT_PUBLIC_API_URL}/secret/${id}`, {
     method: "GET",
     headers: new Headers({
       'admin-key': adminKey
