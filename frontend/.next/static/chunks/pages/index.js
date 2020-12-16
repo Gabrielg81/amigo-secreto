@@ -11649,7 +11649,7 @@ function HomePageHeader() {
           switch (_context.prev = _context.next) {
             case 0:
               name = _ref.name, email = _ref.email;
-              NEXT_PUBLIC_API_URL = "http://localhost:3000";
+              NEXT_PUBLIC_API_URL = "http://localhost:3001";
               _context.next = 4;
               return fetch("".concat(NEXT_PUBLIC_API_URL, "/secret"), {
                 method: 'POST',
