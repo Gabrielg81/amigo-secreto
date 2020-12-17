@@ -110,7 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_components_Steps__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/components/Steps */ "./src/components/Steps.js");
 
 
-var _jsxFileName = "C:\\Users\\gabit\\Desktop\\Apps\\amigo-secreto\\frontend\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\gabit\\desktop\\Apps\\amigo-secreto\\frontend\\pages\\index.js";
 
 
 
@@ -150,7 +150,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "C:\\Users\\gabit\\Desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\Button.js";
+var _jsxFileName = "C:\\Users\\gabit\\desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\Button.js";
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -193,7 +193,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "C:\\Users\\gabit\\Desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\Containers\\GiftContainer.js";
+var _jsxFileName = "C:\\Users\\gabit\\desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\Containers\\GiftContainer.js";
 
 const Background = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "GiftContainer__Background",
@@ -228,7 +228,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "C:\\Users\\gabit\\Desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\Containers\\ImageContainer.js";
+var _jsxFileName = "C:\\Users\\gabit\\desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\Containers\\ImageContainer.js";
 
 const Background = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "ImageContainer__Background",
@@ -268,7 +268,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Logo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Logo */ "./src/components/Logo.js");
 /* harmony import */ var _NameEmailForm__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../NameEmailForm */ "./src/components/NameEmailForm.js");
 
-var _jsxFileName = "C:\\Users\\gabit\\Desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\Headers\\HomePageHeader.js";
+var _jsxFileName = "C:\\Users\\gabit\\desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\Headers\\HomePageHeader.js";
 
 
 
@@ -366,7 +366,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "C:\\Users\\gabit\\Desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\Input.js";
+var _jsxFileName = "C:\\Users\\gabit\\desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\Input.js";
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -410,7 +410,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "C:\\Users\\gabit\\Desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\Logo.js";
+var _jsxFileName = "C:\\Users\\gabit\\desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\Logo.js";
 
 const H1 = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.h1.withConfig({
   displayName: "Logo__H1",
@@ -446,7 +446,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Input__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Input */ "./src/components/Input.js");
 /* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Button */ "./src/components/Button.js");
 
-var _jsxFileName = "C:\\Users\\gabit\\Desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\NameEmailForm.js";
+var _jsxFileName = "C:\\Users\\gabit\\desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\NameEmailForm.js";
 
 
 
@@ -542,7 +542,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "C:\\Users\\gabit\\Desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\StepCard.js";
+var _jsxFileName = "C:\\Users\\gabit\\desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\StepCard.js";
 
 const Card = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "StepCard__Card",
@@ -593,7 +593,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _StepCard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./StepCard */ "./src/components/StepCard.js");
 
 
-var _jsxFileName = "C:\\Users\\gabit\\Desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\Steps.js";
+var _jsxFileName = "C:\\Users\\gabit\\desktop\\Apps\\amigo-secreto\\frontend\\src\\components\\Steps.js";
 
 
 const Container = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
