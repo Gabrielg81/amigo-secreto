@@ -6,6 +6,8 @@ const SecretModel = require('../resources/db/models/Secret')
 
 const draw = require('../utils/draw')
 
+const notifyParticipants = require('../utils/notifyParticipants')
+
 module.exports.create = async (event, context) => {
     context.callbackWaitsForEmptyEventLoop = false
 
@@ -22,6 +24,10 @@ module.exports.create = async (event, context) => {
         })
         return {
             statusCode: 201,
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Credentials': true,
+            },
             body: JSON.stringify({
                 success: true,
                 id: externalId,
@@ -32,6 +38,10 @@ module.exports.create = async (event, context) => {
         console.log(error)
         return {
             statusCode: 500,
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Credentials': true,
+            },
             body: JSON.stringify({
                 success: false,
             }),
@@ -59,12 +69,20 @@ module.exports.get = async (event, context) => {
         }
         return {
             statusCode: 200,
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Credentials': true,
+            },
             body: JSON.stringify(result),
         }
     } catch (error) {
         console.log(error)
         return {
             statusCode: 500,
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Credentials': true,
+            },
             body: JSON.stringify({
                 success: false,
             }),
@@ -104,8 +122,15 @@ module.exports.draw = async (event, context) => {
         }
         )
 
+        await notifyParticipants(drawResult, secret.ownerEmail)
+
+
         return {
             statusCode: 200,
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Credentials': true,
+            },
             body: JSON.stringify({
                 drawResult,
                 success: true,
@@ -117,6 +142,10 @@ module.exports.draw = async (event, context) => {
         console.log(error)
         return {
             statusCode: 500,
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Credentials': true,
+            },
             body: JSON.stringify({
                 success: false,
             }),

@@ -30,6 +30,7 @@ export default function HomePageHeader () {
   const router = useRouter()
 
   const handleSubmit = async ({name, email}) => {
+    console.log({name, email});
     const { NEXT_PUBLIC_API_URL } = process.env
 
     const data = await fetch(`${NEXT_PUBLIC_API_URL}/secret`, {
@@ -45,6 +46,8 @@ export default function HomePageHeader () {
   const handleResponse = ({success, id, adminKey}) => {
     if (success) {
       router.push(`/secret/${id}?adminKey=${adminKey}`)
+    } else{
+      console.log('erro')
     }
   }
 
