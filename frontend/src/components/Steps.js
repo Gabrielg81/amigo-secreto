@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 import StepCard from './StepCard'
+import StepCard1 from './StepCard1'
+import StepCard2 from './StepCard2'
 
 const Container = styled.div`
   display: flex;
