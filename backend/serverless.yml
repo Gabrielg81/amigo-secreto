@@ -18,16 +18,18 @@ functions:
           path: /secret/
           method: post
           cors: true
+
   get:
     handler: src/handlers/secrets.get
     events:
       - http:
           path: /secret/{id}
           method: get
-          cors: 
-            origin: "*"
+          cors:
+            origin: '*'
             headers:
               - admin-key
+
   draw:
     handler: src/handlers/secrets.draw
     role: arn:aws:iam::196639782059:role/dev-week-1
@@ -35,8 +37,8 @@ functions:
       - http:
           path: /secret/{id}/draw
           method: put
-          cors: 
-            origin: "*"
+          cors:
+            origin: '*'
             headers:
               - admin-key
 
@@ -54,7 +56,7 @@ functions:
       - http:
           path: /secret/{id}/participants/{participantId}
           method: delete
-          cors: 
-            origin: "*"
+          cors:
+            origin: '*'
             headers:
               - admin-key

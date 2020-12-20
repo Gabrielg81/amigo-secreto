@@ -47,7 +47,10 @@ export default function SecretHeader ({ onAddParticipant }) {
     <ImageContainer>
       <Container>
         <Logo />
-        <p>Você foi convidado para participar deste amigo secreto de Fulano!</p>
+        <div style="border-radius: 20px; padding: 10; background-color:#AE1D1D; text-align: center; width: 70%">
+          <h1>Você foi convidado para participar deste amigo secreto!</h1>
+        </div>
+        
       </Container>
       <DivForm>
         <NameEmailForm 

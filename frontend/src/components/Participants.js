@@ -54,7 +54,8 @@ export default function Participants ({ showButton, participants, setParticipant
   }
   return (
     <>
-      <H4>Participantes: </H4>
+      <H3>Participantes: </H3>
+      <p>Para excluir algum participante basta clicar na lixeira ao lado do nome.</p>
       <Container>
         {
           participants.length === 0 && <p>Nenhum participante cadastrado ainda.</p>
