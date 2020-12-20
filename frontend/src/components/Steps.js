@@ -23,8 +23,8 @@ export default function Steps () {
       <H1>Como funciona?</H1>
       <Container>
         <StepCard />
-        <StepCard />
-        <StepCard />
+        <StepCard1 />
+        <StepCard2 />
       </Container>
     </>
   )
