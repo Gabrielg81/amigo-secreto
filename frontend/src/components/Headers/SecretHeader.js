@@ -13,6 +13,13 @@ const Container = styled.div`
   color: ${({ theme }) => theme.colors.light};
 `
 
+const Barra = styled.div`
+  background-color: ${({ theme }) => theme.colors.primary};
+  padding: 10px;
+  border-radius: 30px;
+  color: ${({ theme }) => theme.colors.light};
+`
+
 const DivForm = styled.div`
   display: flex;
   flex-direction: row;
@@ -47,7 +54,10 @@ export default function SecretHeader ({ onAddParticipant }) {
     <ImageContainer>
       <Container>
         <Logo />
-        <p>Você foi convidado para participar deste amigo secreto de Fulano!</p>
+        <Barra>
+          <h3>Você foi convidado para participar deste amigo secreto! </h3>
+        </Barra>
+        
       </Container>
       <DivForm>
         <NameEmailForm 

@@ -9,11 +9,11 @@ const Card = styled.div`
   border-radius: 10px;
 `
 
-export default function StepCard () {
+export default function StepCard2 () {
   return (
     <Card>
-      <h3>1. Crie seu sorteio</h3>
-      <p>Digite seu nome e e-mail, e crie o seu sorteio de forma fácil e sem complicações.</p><br /><br /><br /><br />
+     <h3>3. Realize o sorteio</h3>
+      <p>Depois que todos se cadastrarem, basta voltar a sala que criou, ver todos os participantes (caso não apareça, basta atualizar a página) e clicar em sortear. Pronto!</p>
     </Card>
   )
 }

@@ -14,7 +14,7 @@ const Container = styled.div`
 `
 
 const DivForm = styled.div`
-  color: ${({ theme }) => theme.colors.light};
+  color: #000;
   padding: 20px;
   max-width: 400px;
 `
@@ -31,7 +31,7 @@ export default function AdminSecretHeader () {
         <Logo />
       </Container>
       <DivForm>
-        <p>Compartilhe essa sala com seus amigos!</p>
+        <h1>Compartilhe esse link com os participantes!</h1>
         <Input value={link} disabled />
       </DivForm>
     </ImageContainer>
