@@ -13,7 +13,11 @@ export default function StepCard () {
   return (
     <Card>
       <h3>1. Crie seu sorteio</h3>
+<<<<<<< HEAD
       <p>Digite seu nome e e-mail, para criar uma sala de amigo secreto.<br /><br /> <br /><br /><br /></p>
+=======
+      <p>Digite seu nome e e-mail, e crie o seu sorteio de forma fácil e sem complicações.</p>
+>>>>>>> parent of bc49768... Mudança no visual e correções de texto
     </Card>
   )
 }

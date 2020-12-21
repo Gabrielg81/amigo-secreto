@@ -31,7 +31,7 @@ export default function AdminSecretHeader () {
         <Logo />
       </Container>
       <DivForm>
-        <h1 style="color:#000">Compartilhe esse link para quem for participar!</h1>
+        <p>Compartilhe essa sala com seus amigos!</p>
         <Input value={link} disabled />
       </DivForm>
     </ImageContainer>
