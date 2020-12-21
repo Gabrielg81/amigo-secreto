@@ -54,12 +54,9 @@ export default function Participants ({ showButton, participants, setParticipant
   }
   return (
     <>
-<<<<<<< HEAD
+
       <h3>Participantes: </h3>
       <p>Para excluir algum participante basta clicar na lixeira ao lado do nome.</p>
-=======
-      <H4>Participantes: </H4>
->>>>>>> parent of bc49768... Mudança no visual e correções de texto
       <Container>
         {
           participants.length === 0 && <p>Nenhum participante cadastrado ainda.</p>
